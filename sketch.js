@@ -87,14 +87,14 @@ function draw() {
       zombie.velocityX = 0;
       Matter.Body.setVelocity(stone.body, { x: 10, y: -10 });
       zombie.changeImage("sad");
-      collided = true;
+      collided = true; no
     }*/
 
     /*if (distance <= 50) {
       zombie.velocityX = 0;
       Matter.Body.setVelocity(stone.body, { x: 10, y: -10 });
       zombie.Image("sad");
-      collided = true;
+      collided = true; no
     }*/
 
     if (distance <= 50) {
